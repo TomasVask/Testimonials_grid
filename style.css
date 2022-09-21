@@ -6,6 +6,7 @@ body {
 }
 
 .container {
+    max-width: 1110px;
     display: grid;
     grid-template-areas:
         "container-1 container-1 container-2 container-5"
@@ -13,7 +14,7 @@ body {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: minmax(1fr, auto);
     gap: 2.3em;
-    margin: 15em 13em;
+    margin: 15em auto;
 }
 
 /* pictures formatting */
