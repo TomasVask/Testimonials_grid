@@ -150,8 +150,8 @@ div {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
-
-@media(max-width: 1200px) {
+/* below 1200px */
+@media(max-width: 75em) {
     .container {
         display: grid;
         grid-template-areas:
@@ -164,8 +164,8 @@ div {
         margin: 5em 6em;
     }
 }
-
-@media(max-width: 1025px) {
+/* below 1025px */
+@media(max-width: 64.06em) {
     .container {
         display: grid;
         grid-template-areas:
@@ -178,8 +178,8 @@ div {
         margin: 5em 1.2em;
     }
 }
-
-@media(max-width: 576px) {
+/* below 576 */
+@media(max-width: 36em) {
     .container {
         display: grid;
         grid-template-areas:
